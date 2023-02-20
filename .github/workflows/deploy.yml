@@ -32,7 +32,7 @@ jobs:
       - name: Output information
         run: |
           echo "MONGODB_USERNAME: ${{ env.MONGODB_USERNAME}}"
-  deploy:
+  deployWilli:
     needs: test
     runs-on: ubuntu-latest
     steps:
