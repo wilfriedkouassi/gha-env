@@ -11,7 +11,6 @@ jobs:
     environment: testing  
     runs-on: ubuntu-latest
     env:
-      MONGODB_DB_NAME: gha-demo
       MONGODB_CLUSTER_ADDRESS: cluster0.ocyudke.mongodb.net
       MONGODB_USERNAME: willi
       MONGODB_PASSWORD: hDfZVz8fv4HS3h7j
